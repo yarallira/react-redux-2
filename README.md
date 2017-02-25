@@ -19,3 +19,7 @@ git push -u origin master
 
 ## Adicionando chave ssh
 https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+
+
+## Conceito
+ecma-script-2015 ou es6
