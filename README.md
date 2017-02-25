@@ -28,3 +28,13 @@ ecma-script-2015 ou es6
 npm i save-dev babel-plugin-transform-object-rest-spread@6.22.0
 
 ## 2 tipos de componente: baseado em função (+ simples) e baseado em classes.
+
+
+## Importante: no React temos componentes com controle e sem controle. No React você não altera o DOM diretamente e sim o javascript.
+
+- Com controle = null. Quem vai deter o controle é o estado interno do componente e não o DOM.
+
+- Sem controle = undefined. A view poderá deter o estado do componente.
+
+
+# Aplicação mais simples
