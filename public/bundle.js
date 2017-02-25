@@ -54,13 +54,17 @@
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
-	var _component = __webpack_require__(178);
+	var _silvaFamily = __webpack_require__(178);
 
-	var _component2 = _interopRequireDefault(_component);
+	var _silvaFamily2 = _interopRequireDefault(_silvaFamily);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	_reactDom2.default.render(_react2.default.createElement(_component2.default, null), document.getElementById('app'));
+	_reactDom2.default.render(_react2.default.createElement(
+	  'div',
+	  null,
+	  _react2.default.createElement(_silvaFamily2.default, null)
+	), document.getElementById('app'));
 
 /***/ },
 /* 1 */
@@ -21506,19 +21510,56 @@
 	  value: true
 	});
 
-	exports.default = function () {
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _member = __webpack_require__(179);
+
+	var _member2 = _interopRequireDefault(_member);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	exports.default = function (props) {
 	  return _react2.default.createElement(
-	    'h1',
+	    'div',
 	    null,
-	    'Primeiro Componente!'
+	    _react2.default.createElement(_member2.default, { name: 'Jo\xE3o', lastName: 'Silva' }),
+	    _react2.default.createElement(_member2.default, { name: 'Maria', lastName: 'Silva' }),
+	    _react2.default.createElement(_member2.default, { name: 'Jose', lastName: 'Silva' }),
+	    _react2.default.createElement(_member2.default, { name: 'Pedro', lastName: 'Silva' })
 	  );
 	};
+
+/***/ },
+/* 179 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
 
 	var _react = __webpack_require__(1);
 
 	var _react2 = _interopRequireDefault(_react);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	exports.default = function (props) {
+	  return _react2.default.createElement(
+	    'div',
+	    null,
+	    props.name,
+	    ' ',
+	    _react2.default.createElement(
+	      'strong',
+	      null,
+	      props.lastName
+	    )
+	  );
+	};
 
 /***/ }
 /******/ ]);
