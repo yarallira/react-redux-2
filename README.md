@@ -26,3 +26,5 @@ ecma-script-2015 ou es6
 
 ## spread
 npm i save-dev babel-plugin-transform-object-rest-spread@6.22.0
+
+## 2 tipos de componente: baseado em função (+ simples) e baseado em classes.
