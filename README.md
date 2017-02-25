@@ -16,3 +16,6 @@ git commit -m "first commit"
 git remote add origin git@github.com:farnetani/curso-react-redux-cod3r.git
 git push -u origin master
 ```
+
+## Adicionando chave ssh
+https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
