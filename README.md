@@ -23,3 +23,6 @@ https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
 ## Conceito
 ecma-script-2015 ou es6
+
+## spread
+npm i save-dev babel-plugin-transform-object-rest-spread@6.22.0
